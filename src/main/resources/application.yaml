@@ -1,0 +1,17 @@
+
+
+
+bradesco:
+  components:
+    cache-manager:
+      connection:
+        base-url: http://localhost:8080
+        connection-timeout: 3000ms
+        read-timeout: 3000ms
+      defaults:
+        allow-cache-null-values: false
+        ttl: 3000ms
+      caches:
+        get-analitico-rentabilidade:
+          allow-cache-null-values: false
+          ttl: 3000ms
